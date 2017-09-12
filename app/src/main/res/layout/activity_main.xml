@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h"
+    tools:context="com.example.admin.reportapp.MainActivity">
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_above="@+id/edtPassword"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:background="@android:color/background_light"
+        android:onClick="onButton_lacture_Click"
+        android:text="Lacture login"
+        android:alpha="0.80"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="297dp"
+        android:layout_above="@+id/btnSignUp"
+        android:layout_alignLeft="@+id/btnSignUp"
+        android:layout_alignStart="@+id/btnSignUp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.80"
+        android:layout_marginBottom="14dp"
+        android:background="@android:color/background_light"
+        android:onClick="onSignUp"
+        android:text="View Student"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="381dp"
+        android:layout_above="@+id/txtCreate_Acc"
+        android:layout_alignLeft="@+id/edtPassword"
+        android:layout_alignStart="@+id/edtPassword" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="54dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:layout_above="@+id/btnLogin"
+        android:layout_alignLeft="@+id/edtUsername"
+        android:layout_alignStart="@+id/edtUsername" />
+
+    <TextView
+        android:id="@+id/txtCreate_Acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have acc? Create one"
+        android:onClick="onCreate_Account"
+        android:layout_marginRight="49dp"
+        android:layout_marginEnd="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnSignUp"
+        android:layout_alignEnd="@+id/btnSignUp"
+        android:layout_marginBottom="36dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.45"
+        android:text="SIGN IN"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/edtUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+</RelativeLayout>

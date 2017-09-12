@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:padding="20dp"
+    android:background="@drawable/h"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.studentreportapp.AddUpdateStudent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="361dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textStudentno"
+                android:text="Student Name"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/editfirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvWelcome"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+            <TextView
+                android:id="@+id/textSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Student Surname"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/editlastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvWelcome"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:id="@+id/textSubjects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="SUBJECTS"
+                android:textColor="#1e88e5"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="English"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/editsubOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvWelcome"
+                android:singleLine="true"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+            <TextView
+                android:id="@+id/textAfrikaans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Afrikaans"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/editSubTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvWelcome"
+                android:singleLine="true"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+            <TextView
+                android:id="@+id/textMath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Mathematics"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/editSubThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvWelcome"
+                android:singleLine="true"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+            <TextView
+                android:id="@+id/textBiology"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Life Sciences"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/editSubfour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvWelcome"
+                android:singleLine="true"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+            <TextView
+                android:id="@+id/textPhysical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Physical Sciences"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/editSubFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvWelcome"
+                android:singleLine="true"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:id="@+id/textComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="COMMENTS"
+                android:textColor="#f44336"
+                android:textSize="20dp" />
+            <EditText
+                android:id="@+id/editComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvWelcome"
+                android:singleLine="true"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonDelete"
+        android:layout_alignParentStart="true"
+        android:text="Add Data" />
+
+
+</LinearLayout>
